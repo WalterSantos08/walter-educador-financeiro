@@ -1,6 +1,11 @@
+x
 # 💰 Walter - Educador Financeiro Inteligente
 
  Assistente virtual com IA que ensina conceitos de finanças pessoais de forma simples e personalizada, utilizando os dados do próprio usuário como exemplos práticos.
+
+<img width="1904" height="940" alt="Captura de tela 2026-04-13 153221" src="https://github.com/user-attachments/assets/d9c757a4-30cd-4bc9-aa58-42eee3baa1d2" />
+
+
 
 ---
 
