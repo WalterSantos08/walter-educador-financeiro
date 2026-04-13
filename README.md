@@ -1,6 +1,6 @@
 # 💰 Walter - Educador Financeiro Inteligente
 
-> Assistente virtual com IA que ensina conceitos de finanças pessoais de forma simples e personalizada, utilizando os dados do próprio usuário como exemplos práticos.
+ Assistente virtual com IA que ensina conceitos de finanças pessoais de forma simples e personalizada, utilizando os dados do próprio usuário como exemplos práticos.
 
 ---
 
@@ -28,22 +28,6 @@ Ele explica conceitos como reserva de emergência, tipos de investimento e anál
 - Não substitui um profissional certificado  
 
 ---
-
-## 🏗️ Arquitetura
-
-```mermaid
-flowchart TD
-    A[Usuário] --> B[Interface Streamlit]
-    B --> C[Ollama - LLM Local]
-    C --> D[Base de Conhecimento (JSON/CSV)]
-    D --> C
-    C --> E[Resposta Educativa]
-
-**Stack:**
-Interface: Streamlit
-IA: Ollama (modelo local qwen2.5:1.5b)
-Dados: JSON/CSV mockados
-Backend: Python
 
 ## 📁 Estrutura do Projeto
 
@@ -113,3 +97,9 @@ streamlit run src/app.py
 ## 📝 Documentação Completa
 
 Toda a documentação técnica, estratégias de prompt e casos de teste estão disponíveis na pasta [`docs/`](./docs/).
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido por **Walter Santos**.
